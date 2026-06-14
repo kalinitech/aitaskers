@@ -1,0 +1,187 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  passwordHash  String?
+  role          String    @default("tasker") // "tasker" | "admin"
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  profile       Profile?
+  payments      Payment[]
+}
+
+model Profile {
+  id                  String   @id @default(cuid())
+  userId              String   @unique
+  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  fullName            String
+  photoUrl            String?
+  country             String?
+  languages           String?   // comma-separated
+  successRate         Float?
+  bio                 String?
+  subscriptionTier    String    @default("free") // "free" | "verified" | "premium"
+  subscriptionEndDate DateTime?
+  isBadgeApproved     Boolean   @default(false)
+  isFeatured          Boolean   @default(false)
+  featuredUntil       DateTime?
+  profileViews        Int       @default(0)
+  contactWhatsapp     String?
+  contactTelegram     String?
+  contactEmail        String?
+  contactLinkedin     String?
+  isActive            Boolean   @default(true)
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  skills              ProfileSkill[]
+  platformProjects    ProfilePlatformProject[]
+  portfolioItems      PortfolioItem[]
+  verificationRequest VerificationRequest?
+  reviews             Review[]
+  payments            Payment[]
+}
+
+model Platform {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  slug        String   @unique
+  icon        String?
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  projects    Project[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Project {
+  id          String   @id @default(cuid())
+  platformId  String
+  platform    Platform @relation(fields: [platformId], references: [id], onDelete: Cascade)
+  name        String
+  slug        String
+  description String?
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  profileProjects ProfilePlatformProject[]
+
+  @@unique([platformId, slug])
+}
+
+model Skill {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  slug      String   @unique
+  category  String?  // "technical" | "language" | "domain"
+  isActive  Boolean  @default(true)
+  profiles  ProfileSkill[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ProfileSkill {
+  id        String @id @default(cuid())
+  profileId String
+  skillId   String
+  profile   Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  skill     Skill   @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([profileId, skillId])
+}
+
+model ProfilePlatformProject {
+  id          String @id @default(cuid())
+  profileId   String
+  projectId   String
+  profile     Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  project     Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@unique([profileId, projectId])
+}
+
+model PortfolioItem {
+  id          String   @id @default(cuid())
+  profileId   String
+  profile     Profile  @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  mediaUrl    String
+  title       String?
+  description String?
+  mediaType   String   @default("image") // "image" | "pdf" | "url"
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model VerificationRequest {
+  id                      String   @id @default(cuid())
+  profileId               String   @unique
+  profile                 Profile  @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  platformScreenshotUrl   String?
+  workScreenshotUrl       String?
+  employerProofText       String?
+  status                  String   @default("pending") // "pending" | "approved" | "rejected"
+  adminNotes              String?
+  createdAt               DateTime @default(now())
+  updatedAt               DateTime @updatedAt
+}
+
+model Review {
+  id               String   @id @default(cuid())
+  reviewedProfileId String
+  reviewedProfile  Profile  @relation(fields: [reviewedProfileId], references: [id], onDelete: Cascade)
+  reviewerName     String
+  rating           Int      // 1-5
+  comment          String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model Payment {
+  id                 String   @id @default(cuid())
+  userId             String
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  profile            Profile? @relation(fields: [profileId], references: [id])
+  profileId          String?
+  reference          String?
+  amount             Float
+  currency           String   @default("KES")
+  planType           String   // "verified_monthly" | "premium_monthly" | "premium_yearly" | "featured_weekly" | "featured_monthly"
+  status             String   @default("pending") // "pending" | "completed" | "failed" | "refunded"
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+}
+
+model SubscriptionPlan {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  tier        String   // "verified" | "premium" | "featured"
+  duration    String   // "monthly" | "yearly" | "weekly"
+  price       Float
+  currency    String   @default("KES")
+  features    String   // JSON string of features
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model SiteSetting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

@@ -1,0 +1,500 @@
+     1→     1→===== ai_taskers_platform.pdf =====
+     2→     2→--- Page 17 ---
+     3→     3→Micro1 → (undisclosed)
+     4→     4→And beyond those, the most active AI training platforms globally are Coursera–Udemy, Degreed
+     5→     5→Maestro, LearnWorlds, Docebo, 360Learning, Sana Labs, Absorb LMS, EdApp, Whatfix,
+     6→     6→Seismic–Highspot, Workday–Sana.
+     7→     7→Would you like me to expand this into a structured “benchmark task list” format (with
+     8→     8→compliance notes, provenance, and recommended artifact filenames), so it matches the style of
+     9→     9→the submission‑ready tasks you’ve been building with schematics? That way, it’s directly usable
+    10→    10→in your workflow.
+    11→    11→AI Training Platforms and Projects
+    12→    12→Conversation with Gemini
+    13→    13→List me all the ai training platforms, specifying the specific projects for each platform, i.e:
+    14→    14→Outlier AI platform- Aether project
+    15→    15→Handshake AI platform - Hedgehog project
+    16→    16→handshake ai platform - project ivy
+    17→    17→The world of AI training, RLHF (Reinforcement Learning from Human Feedback), and data
+    18→    18→annotation platforms is highly dynamic. Companies frequently use codenames for their projects
+    19→    19→to protect client confidentiality (often major tech giants like Google, Meta, Apple, or OpenAI).
+    20→    20→--- Page 18 ---
+    21→    21→The major AI training platforms and a cross-section of well-known public, past, and active
+    22→    22→internal projects associated with them include:
+    23→    23→1. Outlier AI (Formerly Remotasks)
+    24→    24→Outlier (owned by Scale AI) is one of the largest platforms for generalist, specialist, and coding
+    25→    25→AI trainers.
+    26→    26→Project Aether: Focused on multi-turn dialogue, logic, and reasoning evaluation.
+    27→    27→Project Bulba / Bulba Extensions: Long-standing projects focused on highly detailed, step-by-
+    28→    28→step reasoning, coding, and multi-turn chat alignment.
+    29→    29→Project Flamingo: Primarily focused on multimodal AI training (evaluating combinations of
+    30→    30→images, video, and text).
+    31→    31→Project Guitar: A prominent project variant focused on instruction-following, constraints, and
+    32→    32→rewriting AI prompts.
+    33→    33→Project Dolphin: Focused on ranking search queries, technical writing, and fact-verification
+    34→    34→accuracy.
+    35→    35→Project T-Rex: Heavy emphasis on rigorous fact-checking, citations, and eliminating
+    36→    36→hallucinations in long-form data.
+    37→    37→Project Oneroi: High-tier reasoning and domain-expert technical evaluation.
+    38→    38→2. Handshake AI
+    39→    39→--- Page 19 ---
+    40→    40→Handshake is a prominent platform known for hosting niche, highly specialized code evaluation
+    41→    41→and prompt engineering tasks.
+    42→    42→Project Hedgehog: Complex math, data structures, and edge-case multi-turn dialogue tracking.
+    43→    43→Project Ivy: Focuses on creative writing constraints, factual validation, and natural dialogue
+    44→    44→synthesis.
+    45→    45→Project Cedar: Primarily technical codebase analysis, evaluating AI-generated code snippets for
+    46→    46→efficiency and bugs.
+    47→    47→Project Marigold: Focused on safety guardrails, adversarial prompting (red-teaming), and
+    48→    48→harmful content filtering.
+    49→    49→3. DataAnnotation.tech (DAT)
+    50→    50→DataAnnotation is incredibly popular for general text writing, coding, and specialized domains
+    51→    51→(Math, Physics, Law). While they primarily categorize tasks by user-facing descriptions on the
+    52→    52→dashboard, specific ongoing codenamed initiatives exist within their ecosystem.
+    53→    53→DataAnnotation
+    54→    54→The "Oasis" Projects: Focuses on creative, open-ended writing prompts and conversational flow.
+    55→    55→The "Crux" / Coding Series: High-paying tasks involving Python, JavaScript, and SQL
+    56→    56→debugging, alongside algorithmic code comparison.
+    57→    57→Project Walnut: Focused heavily on complex mathematical proofs, formatting data in LaTeX,
+    58→    58→and validating step-by-step logic.
+    59→    59→--- Page 20 ---
+    60→    60→The "Gold" / Verification Projects: Dedicated specifically to deep research and multi-source fact-
+    61→    61→checking to audit model hallucinations.
+    62→    62→4. Alignerr (By Labelbox)
+    63→    63→Alignerr focuses heavily on domain experts (linguists, advanced coders, historians, scientists) to
+    64→    64→build high-quality foundational data.
+    65→    65→Project Orion: Multi-turn conversational alignment, evaluating natural flow and contextual
+    66→    66→awareness.
+    67→    67→Project Fireweed: Focused on edge-case prompt generation and pushing models to break under
+    68→    68→complex logical constraints.
+    69→    69→Project Spearmint: Deep linguistic analysis, localization, and multilingual translation validation.
+    70→    70→Ai Training Jobs
+    71→    71→Project LLM Voyager: Evaluating advanced agentic workflows and tool-use capabilities of large
+    72→    72→language models.
+    73→    73→5. OneForma (By Centific / Pactera EDGE)
+    74→    74→OneForma handles global micro-tasks, translation, localization, and search engine evaluation
+    75→    75→alongside standard LLM training.
+    76→    76→Ai Training Jobs
+    77→    77→Project Karimata / Tansy / Cornelia: Large-scale semantic translation QA, designed to reduce
+    78→    78→cultural and context mismatches in multilingual AI outputs.
+    79→    79→--- Page 21 ---
+    80→    80→Himalayas
+    81→    81→Project Realtime Voices / RealTalk: Massive audio collection and transcription projects aimed at
+    82→    82→training Automatic Speech Recognition (ASR) systems.
+    83→    83→Himalayas
+    84→    84→Project MilkyWay: Map and geospatial data evaluation, focusing on labeling satellite imagery
+    85→    85→and routing correctness.
+    86→    86→Community Alignment (Evaluation v2): Focused on evaluating safety, toxicity, and ethical
+    87→    87→model compliance.
+    88→    88→6. Telus International & Appen
+    89→    89→These legacy data provider giants handle massive enterprise vendor contracts for search engines
+    90→    90→and social media giants.
+    91→    91→Project Yukon (Telus): Long-running search engine evaluation project assessing the relevance
+    92→    92→and helpfulness of automated web results.
+    93→    93→Project Crescent (Appen): Focused on social media content moderation, LLM filtering, and
+    94→    94→training safety guardrails.
+    95→    95→Project Nile (Appen): E-commerce search relevance, training models to understand user
+    96→    96→purchase intent and categorize products accurately.
+    97→    97→provide a list of all the ai training platforms plus their specific projects , try and list projects that
+    98→    98→are currently active, list them all , make a comprehensive well detailed list
+    99→    99→--- Page 22 ---
+   100→   100→The world of AI training, data annotation, and RLHF (Reinforcement Learning from Human
+   101→   101→Feedback) operates under heavy client confidentiality. Because these platforms primarily train
+   102→   102→foundational models for major tech giants (like Google, OpenAI, Meta, Apple, and Microsoft),
+   103→   103→they use internal project codenames to keep the specific model identities secret.
+   104→   104→The major AI training platforms and a comprehensive breakdown of active, high-frequency, and
+   105→   105→legacy projects running within their ecosystems include:
+   106→   106→1. Outlier AI (Operated by Scale AI)
+   107→   107→Outlier (which absorbed Remotasks) is currently the largest and most widely discussed platform.
+   108→   108→It specializes heavily in domain-expert review, multi-turn logical evaluation, and high-tier
+   109→   109→coding tasks.
+   110→   110→Project Bulba (and Bulba Extensions): One of the most massive, longest-running active project
+   111→   111→series. It focuses heavily on step-by-step reasoning, mathematical proof validation, and code
+   112→   112→evaluation using structured formatting (often requiring markdown or LaTeX).
+   113→   113→Project Aether: Active multi-turn dialogue project. Contributors focus on analyzing deep,
+   114→   114→conversational logic, tracking context across 4 to 10 back-and-forth turns, and ensuring the AI
+   115→   115→follows complex style instructions.
+   116→   116→Project Flamingo / Flamingo Multimodal: A highly active branch dedicated to training
+   117→   117→multimodal models. This involves analyzing combinations of text inputs alongside images,
+   118→   118→temporal video files, and audio sync files.
+   119→   119→Project Guitar: Focuses heavily on strict instruction-following, heavy constraints (e.g., "Write
+   120→   120→this without using the letter 'e'"), and rewriting prompts to test model limits.
+   121→   121→--- Page 23 ---
+   122→   122→Project Dolphin: Broadly focused on search query refinement, web-grounding, fact-verification,
+   123→   123→and technical summarization tasks.
+   124→   124→Project T-Rex: A strict "fact-checking and anti-hallucination" project where trainers must use
+   125→   125→external search tools to comprehensively audit every line of an AI's output.
+   126→   126→Project Oneroi: High-tier, specialized reasoning tasks typically reserved for verified subject-
+   127→   127→matter experts (STEM, Law, and Advanced Finance).
+   128→   128→note
+   129→   129→2. Handshake AI (The Handshake AI Fellowship)
+   130→   130→Handshake targets university students, recent graduates, and vetted early-career professionals
+   131→   131→through its specialized fellowship program, pairing them with top-tier AI research labs.
+   132→   132→Handshake Help Center
+   133→   133→Project Hedgehog: Complex algorithmic design, heavy mathematical multi-turn prompt
+   134→   134→evaluation, and deep edge-case dialogue tracking.
+   135→   135→Project Ivy: Creative constraints evaluation, conversational naturalness, tone consistency
+   136→   136→(shifting between formal, technical, and casual), and emotional intelligence tracking.
+   137→   137→Project Cedar: Primarily technical codebase analysis, reviewing AI-generated code snippets for
+   138→   138→runtime efficiency, refactoring optimization, and hidden security bugs.
+   139→   139→Project Marigold: Dedicated safety guardrails and adversarial prompting (red-teaming). This
+   140→   140→involves trying to trick the model into bypassing its own safety filters to ensure it handles
+   141→   141→malicious prompts safely.
+   142→   142→--- Page 24 ---
+   143→   143→3. DataAnnotation.tech (DAT)
+   144→   144→DataAnnotation is popular for general text writing, advanced coding, and STEM evaluations.
+   145→   145→Unlike platforms that assign rigid codenames, DAT often dynamically titles tasks on user
+   146→   146→dashboards based on internal categories, though distinct operational initiatives dictate the
+   147→   147→workflow:
+   148→   148→DataAnnotation
+   149→   149→The "Oasis" Series: Projects that focus entirely on creative writing, persona-adoption, open-
+   150→   150→ended brainstorming, and highly expressive conversational styling.
+   151→   151→The "Crux" / Coding Series: Premium-tier tasks involving real-time Python, JavaScript, C++, or
+   152→   152→SQL debugging. Contractors are required to write operational unit tests to prove whether the AI's
+   153→   153→code passes or fails.
+   154→   154→Project Walnut: High-level mathematical proofs, complex statistical analysis, and strict
+   155→   155→validation of step-by-step logic.
+   156→   156→The "Gold" / Verification Projects: Deep-dive citation audits. Every claim made by the model
+   157→   157→must be anchored to verifiable URLs or academic sources to train the model out of making false
+   158→   158→claims.
+   159→   159→4. Alignerr (Powered by Labelbox)
+   160→   160→Alignerr has scaled significantly by focusing heavily on niche domain experts (certified linguists,
+   161→   161→historians, physical scientists, and professional writers) to reduce model errors.
+   162→   162→Project Orion: Focuses heavily on multi-turn conversational alignment, evaluating natural
+   163→   163→conversational flow, and detecting when a model repeats itself or loses track of user instructions.
+   164→   164→--- Page 25 ---
+   165→   165→Project Fireweed: Focuses on edge-case prompt generation, forcing contributors to design
+   166→   166→prompts that purposefully push models to their breaking point under dense logical parameters.
+   167→   167→Project Spearmint: Deep linguistic analysis, localization, and multilingual translation validation
+   168→   168→to ensure models catch cultural idioms and localized context.
+   169→   169→Project LLM Voyager: Evaluating advanced "agentic" workflows. Instead of standard text
+   170→   170→outputs, this trains models to execute multi-step tool-use tasks (like navigating a virtual browser
+   171→   171→or pulling APIs).
+   172→   172→5. OneForma (By Centific)
+   173→   173→OneForma manages large global translation, audio, localization, and search relevance data
+   174→   174→engines alongside human-in-the-loop AI workflows.
+   175→   175→Reddit
+   176→   176→Project Karimata / Tansy / Cornelia: A massive network of semantic translation and quality
+   177→   177→assurance tasks aimed at fine-tuning LLMs for perfect cross-border communication without
+   178→   178→literal translation errors.
+   179→   179→Project Realtime Voices / RealTalk: Collection, annotation, and transcription of diverse vocal
+   180→   180→clips to fine-tune automated speech-to-text (ASR) and conversational voice models.
+   181→   181→Project MilkyWay: Geospatial and map evaluation, requiring humans to label spatial
+   182→   182→relationships, analyze satellite images, and correct routing algorithms.
+   183→   183→6. Telus Digital (Formerly Telus International) & Appen
+   184→   184→KaziNest Careers
+   185→   185→--- Page 26 ---
+   186→   186→+ 1
+   187→   187→These enterprise-level legacy tech vendors handle scaled data pipeline operations for massive
+   188→   188→legacy search platforms and web ads.
+   189→   189→Project Yukon (Telus): A massive, long-standing search engine evaluation framework focusing
+   190→   190→on grading web results, local search maps, and automated answer summaries.
+   191→   191→Project Crescent (Appen): Social media content mitigation and moderation, training safety
+   192→   192→guardrails to identify and filter out toxic or abusive content.
+   193→   193→Project Nile (Appen): E-commerce search relevance, training large recommendation models to
+   194→   194→map user purchasing behavior to optimized inventory listings.
+   195→   195→search and continue the list
+   196→   196→Read 10 web pages
+   197→   197→I have expanded the search to include additional platforms, specialized domains like embodied
+   198→   198→AI, and the latest training infrastructure providers. Below is the comprehensive, updated list of
+   199→   199→AI training platforms with their associated projects.
+   200→   200→Updated Master List of AI Training Platforms & Projects
+   201→   201→1. Outlier AI (Operated by Scale AI)
+   202→   202→The largest platform for generalist and coding AI trainers. Currently active projects include:
+   203→   203→Project Aether: Multi-turn dialogue, logic, and reasoning evaluation.
+   204→   204→--- Page 27 ---
+   205→   205→Project Bulba / Bulba Extensions: Step-by-step reasoning, mathematical proof validation, and
+   206→   206→code evaluation.
+   207→   207→Project Flamingo: Multimodal AI training (evaluating combinations of images, video, and text).
+   208→   208→Project Guitar: Instruction-following with heavy constraints and prompt rewriting.
+   209→   209→Project Dolphin: Search query refinement, web-grounding, and fact-verification.
+   210→   210→Project T-Rex: Rigorous fact-checking and anti-hallucination auditing.
+   211→   211→Project Oneroi: High-tier, specialized reasoning for STEM, Law, and Finance experts.
+   212→   212→2. Handshake AI
+   213→   213→Focuses on technical experts and recent graduates for specialized code evaluation.
+   214→   214→Project Hedgehog: Complex algorithmic design, mathematical multi-turn prompts, and edge-case
+   215→   215→tracking.
+   216→   216→Project Ivy: Creative constraints, conversational naturalness, and emotional intelligence tracking.
+   217→   217→Project Cedar: Technical codebase analysis, runtime efficiency, and security bug detection.
+   218→   218→--- Page 28 ---
+   219→   219→Project Marigold: Safety guardrails, adversarial prompting, and red-teaming.
+   220→   220→3. DataAnnotation.tech (DAT)
+   221→   221→Popular for general text, coding, and STEM evaluation.
+   222→   222→The "Oasis" Series: Creative writing, persona-adoption, and open-ended brainstorming.
+   223→   223→The "Crux" / Coding Series: Premium coding tasks (Python, JS, C++) requiring unit test writing.
+   224→   224→Project Walnut: High-level mathematical proofs and step-by-step logic validation.
+   225→   225→The "Gold" / Verification Projects: Deep-dive citation audits requiring URL or academic source
+   226→   226→verification.
+   227→   227→4. Alignerr (By Labelbox)
+   228→   228→Focuses on niche domain experts (linguists, historians, scientists).
+   229→   229→Project Orion: Multi-turn conversational alignment and contextual awareness.
+   230→   230→Project Fireweed: Edge-case prompt generation to test model limits.
+   231→   231→Project Spearmint: Deep linguistic analysis, localization, and multilingual validation.
+   232→   232→Project LLM Voyager: Evaluating advanced "agentic" workflows and tool-use capabilities.
+   233→   233→--- Page 29 ---
+   234→   234→5. OneForma (By Centific)
+   235→   235→Handles global micro-tasks, translation, and search evaluation.
+   236→   236→Project Karimata / Tansy / Cornelia: Semantic translation QA for cultural and contextual
+   237→   237→accuracy.
+   238→   238→Project Realtime Voices / RealTalk: Audio collection and transcription for speech recognition
+   239→   239→(ASR) systems.
+   240→   240→Project MilkyWay: Geospatial and map data evaluation (satellite imagery, routing algorithms).
+   241→   241→6. Telus Digital & Appen
+   242→   242→Enterprise vendors handling massive contracts for search and social media giants.
+   243→   243→Project Yukon (Telus): Long-standing search engine evaluation (grading web results, local
+   244→   244→maps).
+   245→   245→Project Crescent (Appen): Social media content moderation and safety guardrail training.
+   246→   246→Project Nile (Appen): E-commerce search relevance and user purchase intent mapping.
+   247→   247→7. New & Emerging Players (2025-2026)
+   248→   248→Invisible Technologies
+   249→   249→A managed service layer combining human expertise with automation for complex workflows.
+   250→   250→--- Page 30 ---
+   251→   251→Structured Process Ops: High-quality outputs for enterprise AI training, though specific project
+   252→   252→codenames remain internal.
+   253→   253→Surge AI
+   254→   254→Focuses on high-quality data labeling and evaluation workflows.
+   255→   255→Adversarial & Safety Evaluations: Red-teaming and content moderation tasks.
+   256→   256→Preference Ranking: Domain-specific alignment and response ranking.
+   257→   257→AfterQuery
+   258→   258→Specializes in deep reasoning and analytical tasks.
+   259→   259→Reasoning Synthesis: Complex query handling and structured analytical thinking tasks.
+   260→   260→MangoDesk (YC S24)
+   261→   261→A newer platform focused on accelerating custom eval and post-training data pipelines.
+   262→   262→Bespoke Annotation Pipelines: Auto-generates interfaces and instructions for specific client
+   263→   263→needs .
+   264→   264→8. Technical Training & Infrastructure Platforms
+   265→   265→If you are looking for self-hosted or infrastructure platforms to train models (rather than
+   266→   266→freelance platforms), the following are actively used in 2026:
+   267→   267→--- Page 31 ---
+   268→   268→Fireworks AI
+   269→   269→Provides end-to-end infrastructure for training and deploying frontier models.
+   270→   270→Training Agent: Allows users to describe tasks and upload data for automated fine-tuning.
+   271→   271→Managed Training: Supports SFT (Supervised Fine-Tuning), DPO (Direct Preference
+   272→   272→Optimization), and RFT.
+   273→   273→Full-Parameter Training: Supports models up to 1 trillion parameters (e.g., Kimi K2.5) .
+   274→   274→verl (Volcano Engine RL)
+   275→   275→ByteDance's high-performance RL training library for LLMs.
+   276→   276→DAPO: Fully open-source SOTA RL algorithm (beats DeepSeek-R1-zero-32B).
+   277→   277→HybridFlow: Enables efficient RLHF training across thousands of GPUs.
+   278→   278→Agentic Training: Supports projects like TinyZero (R1-Zero reproduction) and *Search-R1* .
+   279→   279→OpenRLHF
+   280→   280→A Ray-based high-performance RLHF framework (used by MIT, Microsoft, HKUST).
+   281→   281→REINFORCE++: A simple and efficient alignment algorithm.
+   282→   282→--- Page 32 ---
+   283→   283→Multi-Turn VLM RL: Supports vision-language models with image inputs .
+   284→   284→LabelU (OpenDataLab)
+   285→   285→An open-source multimodal data annotation platform.
+   286→   286→AI Auto-Annotation: Integrates Florence-2, GroundingDINO, and SAM 3 for automatic labeling
+   287→   287→of images/videos .
+   288→   288→DataBayt.AI Studio
+   289→   289→A self-hosted annotation platform for teams prioritizing data ownership.
+   290→   290→AI-Assisted Labeling: Supports local models (Ollama) or cloud providers (OpenAI, Anthropic)
+   291→   291→for annotation assistance .
+   292→   292→Summary of Updates
+   293→   293→Expanded "Human-in-the-loop" platforms: Added Invisible Technologies, Surge AI, AfterQuery,
+   294→   294→and MangoDesk.
+   295→   295→Added Infrastructure & Technical Training: Included Fireworks AI, verl, OpenRLHF, LabelU,
+   296→   296→and DataBayt.AI for readers interested in the technical side of training.
+   297→   297→Verified Project Activity: Confirmed that major projects like Bulba, Hedgehog, and Yukon
+   298→   298→remain active as of mid-2026.
+   299→   299→AI Training Platforms and Projects
+   300→   300→--- Page 33 ---
+   301→   301→Conversation with Gemini
+   302→   302→List me all the ai training platforms, specifying the specific projects for each platform, i.e:
+   303→   303→Outlier AI platform- Aether project
+   304→   304→Handshake AI platform - Hedgehog project
+   305→   305→handshake ai platform - project ivy
+   306→   306→The world of AI training, RLHF (Reinforcement Learning from Human Feedback), and data
+   307→   307→annotation platforms is highly dynamic. Companies frequently use codenames for their projects
+   308→   308→to protect client confidentiality (often major tech giants like Google, Meta, Apple, or OpenAI).
+   309→   309→The major AI training platforms and a cross-section of well-known public, past, and active
+   310→   310→internal projects associated with them include:
+   311→   311→1. Outlier AI (Formerly Remotasks)
+   312→   312→Outlier (owned by Scale AI) is one of the largest platforms for generalist, specialist, and coding
+   313→   313→AI trainers.
+   314→   314→Project Aether: Focused on multi-turn dialogue, logic, and reasoning evaluation.
+   315→   315→Project Bulba / Bulba Extensions: Long-standing projects focused on highly detailed, step-by-
+   316→   316→step reasoning, coding, and multi-turn chat alignment.
+   317→   317→--- Page 34 ---
+   318→   318→Project Flamingo: Primarily focused on multimodal AI training (evaluating combinations of
+   319→   319→images, video, and text).
+   320→   320→Project Guitar: A prominent project variant focused on instruction-following, constraints, and
+   321→   321→rewriting AI prompts.
+   322→   322→Project Dolphin: Focused on ranking search queries, technical writing, and fact-verification
+   323→   323→accuracy.
+   324→   324→Project T-Rex: Heavy emphasis on rigorous fact-checking, citations, and eliminating
+   325→   325→hallucinations in long-form data.
+   326→   326→Project Oneroi: High-tier reasoning and domain-expert technical evaluation.
+   327→   327→2. Handshake AI
+   328→   328→Handshake is a prominent platform known for hosting niche, highly specialized code evaluation
+   329→   329→and prompt engineering tasks.
+   330→   330→Project Hedgehog: Complex math, data structures, and edge-case multi-turn dialogue tracking.
+   331→   331→Project Ivy: Focuses on creative writing constraints, factual validation, and natural dialogue
+   332→   332→synthesis.
+   333→   333→Project Cedar: Primarily technical codebase analysis, evaluating AI-generated code snippets for
+   334→   334→efficiency and bugs.
+   335→   335→--- Page 35 ---
+   336→   336→Project Marigold: Focused on safety guardrails, adversarial prompting (red-teaming), and
+   337→   337→harmful content filtering.
+   338→   338→3. DataAnnotation.tech (DAT)
+   339→   339→DataAnnotation is incredibly popular for general text writing, coding, and specialized domains
+   340→   340→(Math, Physics, Law). While they primarily categorize tasks by user-facing descriptions on the
+   341→   341→dashboard, specific ongoing codenamed initiatives exist within their ecosystem.
+   342→   342→DataAnnotation
+   343→   343→The "Oasis" Projects: Focuses on creative, open-ended writing prompts and conversational flow.
+   344→   344→The "Crux" / Coding Series: High-paying tasks involving Python, JavaScript, and SQL
+   345→   345→debugging, alongside algorithmic code comparison.
+   346→   346→Project Walnut: Focused heavily on complex mathematical proofs, formatting data in LaTeX,
+   347→   347→and validating step-by-step logic.
+   348→   348→The "Gold" / Verification Projects: Dedicated specifically to deep research and multi-source fact-
+   349→   349→checking to audit model hallucinations.
+   350→   350→4. Alignerr (By Labelbox)
+   351→   351→Alignerr focuses heavily on domain experts (linguists, advanced coders, historians, scientists) to
+   352→   352→build high-quality foundational data.
+   353→   353→Project Orion: Multi-turn conversational alignment, evaluating natural flow and contextual
+   354→   354→awareness.
+   355→   355→--- Page 36 ---
+   356→   356→Project Fireweed: Focused on edge-case prompt generation and pushing models to break under
+   357→   357→complex logical constraints.
+   358→   358→Project Spearmint: Deep linguistic analysis, localization, and multilingual translation validation.
+   359→   359→Ai Training Jobs
+   360→   360→Project LLM Voyager: Evaluating advanced agentic workflows and tool-use capabilities of large
+   361→   361→language models.
+   362→   362→5. OneForma (By Centific / Pactera EDGE)
+   363→   363→OneForma handles global micro-tasks, translation, localization, and search engine evaluation
+   364→   364→alongside standard LLM training.
+   365→   365→Ai Training Jobs
+   366→   366→Project Karimata / Tansy / Cornelia: Large-scale semantic translation QA, designed to reduce
+   367→   367→cultural and context mismatches in multilingual AI outputs.
+   368→   368→Himalayas
+   369→   369→Project Realtime Voices / RealTalk: Massive audio collection and transcription projects aimed at
+   370→   370→training Automatic Speech Recognition (ASR) systems.
+   371→   371→Himalayas
+   372→   372→Project MilkyWay: Map and geospatial data evaluation, focusing on labeling satellite imagery
+   373→   373→and routing correctness.
+   374→   374→Community Alignment (Evaluation v2): Focused on evaluating safety, toxicity, and ethical
+   375→   375→model compliance.
+   376→   376→--- Page 37 ---
+   377→   377→6. Telus International & Appen
+   378→   378→These legacy data provider giants handle massive enterprise vendor contracts for search engines
+   379→   379→and social media giants.
+   380→   380→Project Yukon (Telus): Long-running search engine evaluation project assessing the relevance
+   381→   381→and helpfulness of automated web results.
+   382→   382→Project Crescent (Appen): Focused on social media content moderation, LLM filtering, and
+   383→   383→training safety guardrails.
+   384→   384→Project Nile (Appen): E-commerce search relevance, training models to understand user
+   385→   385→purchase intent and categorize products accurately.
+   386→   386→provide a list of all the ai training platforms plus their specific projects , try and list projects that
+   387→   387→are currently active, list them all , make a comprehensive well detailed list
+   388→   388→The world of AI training, data annotation, and RLHF (Reinforcement Learning from Human
+   389→   389→Feedback) operates under heavy client confidentiality. Because these platforms primarily train
+   390→   390→foundational models for major tech giants (like Google, OpenAI, Meta, Apple, and Microsoft),
+   391→   391→they use internal project codenames to keep the specific model identities secret.
+   392→   392→The major AI training platforms and a comprehensive breakdown of active, high-frequency, and
+   393→   393→legacy projects running within their ecosystems include:
+   394→   394→1. Outlier AI (Operated by Scale AI)
+   395→   395→Outlier (which absorbed Remotasks) is currently the largest and most widely discussed platform.
+   396→   396→It specializes heavily in domain-expert review, multi-turn logical evaluation, and high-tier
+   397→   397→coding tasks.
+   398→   398→--- Page 38 ---
+   399→   399→Project Bulba (and Bulba Extensions): One of the most massive, longest-running active project
+   400→   400→series. It focuses heavily on step-by-step reasoning, mathematical proof validation, and code
+   401→   401→evaluation using structured formatting (often requiring markdown or LaTeX).
+   402→   402→Project Aether: Active multi-turn dialogue project. Contributors focus on analyzing deep,
+   403→   403→conversational logic, tracking context across 4 to 10 back-and-forth turns, and ensuring the AI
+   404→   404→follows complex style instructions.
+   405→   405→Project Flamingo / Flamingo Multimodal: A highly active branch dedicated to training
+   406→   406→multimodal models. This involves analyzing combinations of text inputs alongside images,
+   407→   407→temporal video files, and audio sync files.
+   408→   408→Project Guitar: Focuses heavily on strict instruction-following, heavy constraints (e.g., "Write
+   409→   409→this without using the letter 'e'"), and rewriting prompts to test model limits.
+   410→   410→Project Dolphin: Broadly focused on search query refinement, web-grounding, fact-verification,
+   411→   411→and technical summarization tasks.
+   412→   412→Project T-Rex: A strict "fact-checking and anti-hallucination" project where trainers must use
+   413→   413→external search tools to comprehensively audit every line of an AI's output.
+   414→   414→Project Oneroi: High-tier, specialized reasoning tasks typically reserved for verified subject-
+   415→   415→matter experts (STEM, Law, and Advanced Finance).
+   416→   416→note
+   417→   417→2. Handshake AI (The Handshake AI Fellowship)
+   418→   418→Handshake targets university students, recent graduates, and vetted early-career professionals
+   419→   419→through its specialized fellowship program, pairing them with top-tier AI research labs.
+   420→   420→--- Page 39 ---
+   421→   421→Handshake Help Center
+   422→   422→Project Hedgehog: Complex algorithmic design, heavy mathematical multi-turn prompt
+   423→   423→evaluation, and deep edge-case dialogue tracking.
+   424→   424→Project Ivy: Creative constraints evaluation, conversational naturalness, tone consistency
+   425→   425→(shifting between formal, technical, and casual), and emotional intelligence tracking.
+   426→   426→Project Cedar: Primarily technical codebase analysis, reviewing AI-generated code snippets for
+   427→   427→runtime efficiency, refactoring optimization, and hidden security bugs.
+   428→   428→Project Marigold: Dedicated safety guardrails and adversarial prompting (red-teaming). This
+   429→   429→involves trying to trick the model into bypassing its own safety filters to ensure it handles
+   430→   430→malicious prompts safely.
+   431→   431→3. DataAnnotation.tech (DAT)
+   432→   432→DataAnnotation is popular for general text writing, advanced coding, and STEM evaluations.
+   433→   433→Unlike platforms that assign rigid codenames, DAT often dynamically titles tasks on user
+   434→   434→dashboards based on internal categories, though distinct operational initiatives dictate the
+   435→   435→workflow:
+   436→   436→DataAnnotation
+   437→   437→The "Oasis" Series: Projects that focus entirely on creative writing, persona-adoption, open-
+   438→   438→ended brainstorming, and highly expressive conversational styling.
+   439→   439→The "Crux" / Coding Series: Premium-tier tasks involving real-time Python, JavaScript, C++, or
+   440→   440→SQL debugging. Contractors are required to write operational unit tests to prove whether the AI's
+   441→   441→code passes or fails.
+   442→   442→--- Page 40 ---
+   443→   443→Project Walnut: High-level mathematical proofs, complex statistical analysis, and strict
+   444→   444→validation of step-by-step logic.
+   445→   445→The "Gold" / Verification Projects: Deep-dive citation audits. Every claim made by the model
+   446→   446→must be anchored to verifiable URLs or academic sources to train the model out of making false
+   447→   447→claims.
+   448→   448→4. Alignerr (Powered by Labelbox)
+   449→   449→Alignerr has scaled significantly by focusing heavily on niche domain experts (certified linguists,
+   450→   450→historians, physical scientists, and professional writers) to reduce model errors.
+   451→   451→Project Orion: Focuses heavily on multi-turn conversational alignment, evaluating natural
+   452→   452→conversational flow, and detecting when a model repeats itself or loses track of user instructions.
+   453→   453→Project Fireweed: Focuses on edge-case prompt generation, forcing contributors to design
+   454→   454→prompts that purposefully push models to their breaking point under dense logical parameters.
+   455→   455→Project Spearmint: Deep linguistic analysis, localization, and multilingual translation validation
+   456→   456→to ensure models catch cultural idioms and localized context.
+   457→   457→Project LLM Voyager: Evaluating advanced "agentic" workflows. Instead of standard text
+   458→   458→outputs, this trains models to execute multi-step tool-use tasks (like navigating a virtual browser
+   459→   459→or pulling APIs).
+   460→   460→5. OneForma (By Centific)
+   461→   461→OneForma manages large global translation, audio, localization, and search relevance data
+   462→   462→engines alongside human-in-the-loop AI workflows.
+   463→   463→Reddit
+   464→   464→--- Page 41 ---
+   465→   465→Project Karimata / Tansy / Cornelia: A massive network of semantic translation and quality
+   466→   466→assurance tasks aimed at fine-tuning LLMs for perfect cross-border communication without
+   467→   467→literal translation errors.
+   468→   468→Project Realtime Voices / RealTalk: Collection, annotation, and transcription of diverse vocal
+   469→   469→clips to fine-tune automated speech-to-text (ASR) and conversational voice models.
+   470→   470→Project MilkyWay: Geospatial and map evaluation, requiring humans to label spatial
+   471→   471→relationships, analyze satellite images, and correct routing algorithms.
+   472→   472→6. Telus Digital (Formerly Telus International) & Appen
+   473→   473→KaziNest Careers
+   474→   474→+ 1
+   475→   475→These enterprise-level legacy tech vendors handle scaled data pipeline operations for massive
+   476→   476→legacy search platforms and web ads.
+   477→   477→Project Yukon (Telus): A massive, long-standing search engine evaluation framework focusing
+   478→   478→on grading web results, local search maps, and automated answer summaries.
+   479→   479→Project Crescent (Appen): Social media content mitigation and moderation, training safety
+   480→   480→guardrails to identify and filter out toxic or abusive content.
+   481→   481→Project Nile (Appen): E-commerce search relevance, training large recommendation models to
+   482→   482→map user purchasing behavior to optimized inventory listings.
+   483→   483→--- Page 42 ---
+   484→   484→search and continue the list
+   485→   485→Read 10 web pages
+   486→   486→I have expanded the search to include additional platforms, specialized domains like embodied
+   487→   487→AI, and the latest training infrastructure providers. Below is the comprehensive, updated list of
+   488→   488→AI training platforms with their associated projects.
+   489→   489→Updated Master List of AI Training Platforms & Projects
+   490→   490→1. Outlier AI (Operated by Scale AI)
+   491→   491→The largest platform for generalist and coding AI trainers. Currently active projects include:
+   492→   492→Project Aether: Multi-turn dialogue, logic, and reasoning evaluation.
+   493→   493→Project Bulba / Bulba Extensions: Step-by-step reasoning, mathematical proof validation, and
+   494→   494→code evaluation.
+   495→   495→Project Flamingo: Multimodal AI training (evaluating combinations of images, video, and text).
+   496→   496→Project Guitar: Instruction-following with heavy constraints and prompt rewriting.
+   497→   497→Project Dolphin: Search query refinement, web-grounding, and fact-verification.
+   498→   498→Project T-Rex: Rigorous fact-checking and anti-hallucination auditing.
+   499→   499→--- Page 43 ---
+   500→   500→Project Oneroi: High-tier, specialized reasoning for STEM, Law, and Finance experts.
