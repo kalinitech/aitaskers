@@ -69,10 +69,10 @@ export function Navbar() {
               onClick={() => setView('home')}
               className="flex items-center gap-2 group"
             >
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-emerald-500 to-emerald-700 flex items-center justify-center shadow-sm">
+              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-brand-navy to-brand-navyLight flex items-center justify-center shadow-sm">
                 <span className="text-white font-bold text-sm">AI</span>
               </div>
-              <span className="font-bold text-lg bg-gradient-to-r from-emerald-600 to-emerald-800 bg-clip-text text-transparent">
+              <span className="font-bold text-lg bg-gradient-to-r from-brand-navy to-brand-teal bg-clip-text text-transparent">
                 AITaskers
               </span>
             </button>
@@ -80,15 +80,15 @@ export function Navbar() {
             {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-1">
               {navItems.map((item) => {
-                const Icon = item.icon
-                const isActive = currentView === item.key
+                const Icon = item.icon;
+                const isActive = currentView === item.key;
                 return (
                   <button
                     key={item.key}
                     onClick={() => setView(item.key)}
                     className={`relative flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                       isActive
-                        ? 'text-emerald-600 bg-emerald-50 dark:bg-emerald-950/30'
+                        ? 'text-brand-teal bg-brand-teal/10 dark:bg-brand-teal/10'
                         : 'text-muted-foreground hover:text-foreground hover:bg-accent'
                     }`}
                   >
@@ -97,11 +97,11 @@ export function Navbar() {
                     {isActive && (
                       <motion.div
                         layoutId="activeNav"
-                        className="absolute bottom-0 left-2 right-2 h-0.5 bg-emerald-500 rounded-full"
+                        className="absolute bottom-0 left-2 right-2 h-0.5 bg-brand-teal rounded-full"
                       />
                     )}
                   </button>
-                )
+                );
               })}
             </nav>
 
@@ -150,25 +150,25 @@ export function Navbar() {
             >
               <div className="px-4 py-3 space-y-1">
                 {navItems.map((item) => {
-                  const Icon = item.icon
-                  const isActive = currentView === item.key
+                  const Icon = item.icon;
+                  const isActive = currentView === item.key;
                   return (
                     <button
                       key={item.key}
                       onClick={() => {
-                        setView(item.key)
-                        setMobileOpen(false)
+                        setView(item.key);
+                        setMobileOpen(false);
                       }}
                       className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                         isActive
-                          ? 'text-emerald-600 bg-emerald-50 dark:bg-emerald-950/30'
+                          ? 'text-brand-teal bg-brand-teal/10 dark:bg-brand-teal/10'
                           : 'text-muted-foreground hover:text-foreground hover:bg-accent'
                       }`}
                     >
                       <Icon size={16} />
                       {item.label}
                     </button>
-                  )
+                  );
                 })}
                 <div className="pt-2 border-t mt-2">
                   {user ? (

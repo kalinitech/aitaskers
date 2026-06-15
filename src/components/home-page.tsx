@@ -75,13 +75,13 @@ export function HomePage() {
   return (
     <div className="overflow-hidden">
       {/* ===== HERO SECTION ===== */}
-      <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950 overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-brand-navy via-brand-navyLight to-slate-900 overflow-hidden">
         {/* Animated background dots */}
         <div className="absolute inset-0 overflow-hidden">
           {Array.from({ length: 30 }, (_, i) => (
             <motion.div
               key={i}
-              className="absolute w-1 h-1 bg-emerald-400/30 rounded-full"
+              className="absolute w-1 h-1 bg-brand-teal/30 rounded-full"
               style={{
                 left: `${Math.random() * 100}%`,
                 top: `${Math.random() * 100}%`,
@@ -105,13 +105,13 @@ export function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-1.5 mb-6">
-              <Sparkles size={14} className="text-emerald-400" />
-              <span className="text-emerald-300 text-sm font-medium">The #1 AI Trainer Directory</span>
+            <div className="inline-flex items-center gap-2 bg-brand-teal/10 border border-brand-teal/20 rounded-full px-4 py-1.5 mb-6">
+              <Sparkles size={14} className="text-brand-teal" />
+              <span className="text-brand-teal text-sm font-medium">The #1 AI Trainer Directory</span>
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight tracking-tight mb-6">
               Stop Searching Telegram.{' '}
-              <span className="bg-gradient-to-r from-emerald-400 to-emerald-300 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-brand-teal to-brand-tealLight bg-clip-text text-transparent">
                 Start Hiring Proven AI Trainers.
               </span>
             </h1>
@@ -119,11 +119,11 @@ export function HomePage() {
               The only directory where every badge is backed by real proof of work on Outlier, Handshake, DataAnnotation, RWS and more.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white h-12 px-8 text-base" onClick={goToBrowse}>
+              <Button size="lg" className="bg-brand-teal hover:bg-brand-tealLight text-brand-navy h-12 px-8 text-base" onClick={goToBrowse}>
                 <Search size={18} className="mr-2" />
                 Find a Tasker
               </Button>
-              <Button size="lg" variant="outline" className="border-slate-600 text-white hover:bg-slate-800 h-12 px-8 text-base" onClick={goToDashboard}>
+              <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 h-12 px-8 text-base" onClick={goToDashboard}>
                 Create Profile
                 <ArrowRight size={18} className="ml-2" />
               </Button>
@@ -145,7 +145,7 @@ export function HomePage() {
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="flex items-center justify-center mb-1">
-                  <stat.icon size={16} className="text-emerald-400 mr-1.5" />
+                  <stat.icon size={16} className="text-brand-teal mr-1.5" />
                   <span className="text-2xl sm:text-3xl font-bold text-white">
                     <AnimatedCounter target={stat.value} suffix={stat.suffix} />
                   </span>
@@ -226,35 +226,33 @@ export function HomePage() {
                 icon: ShieldCheck,
                 title: 'Verified Profiles',
                 description: 'Every verified badge requires screenshot proof of platform work and admin review.',
-                color: 'emerald',
+                color: 'brand',
               },
               {
                 icon: Award,
                 title: 'Proven Experience',
                 description: 'See which platforms and projects each trainer works on, with portfolio evidence.',
-                color: 'amber',
+                color: 'brand2',
               },
               {
                 icon: MessageCircle,
                 title: 'Direct Contact',
                 description: 'Reach trainers directly via WhatsApp, Telegram, or email. No middleman fees.',
-                color: 'sky',
+                color: 'brand',
               },
               {
                 icon: Globe,
                 title: 'Global Talent',
                 description: 'Access AI trainers from Kenya, Nigeria, India, Philippines, and 40+ countries.',
-                color: 'violet',
+                color: 'brand2',
               },
             ].map((item, i) => (
               <FadeInUp key={item.title} delay={i * 0.1}>
                 <motion.div whileHover={{ y: -6 }} transition={{ duration: 0.2 }}>
                   <Card className="h-full text-center p-6 hover:shadow-lg transition-shadow">
                     <div className={`w-14 h-14 mx-auto mb-4 rounded-xl flex items-center justify-center ${
-                      item.color === 'emerald' ? 'bg-emerald-100 text-emerald-600 dark:bg-emerald-950 dark:text-emerald-400' :
-                      item.color === 'amber' ? 'bg-amber-100 text-amber-600 dark:bg-amber-950 dark:text-amber-400' :
-                      item.color === 'sky' ? 'bg-sky-100 text-sky-600 dark:bg-sky-950 dark:text-sky-400' :
-                      'bg-violet-100 text-violet-600 dark:bg-violet-950 dark:text-violet-400'
+                      item.color === 'brand' ? 'bg-brand-teal/10 text-brand-teal dark:bg-brand-teal/10 dark:text-brand-teal' :
+                      'bg-brand-navy/10 text-brand-navy dark:bg-brand-navy/10 dark:text-brand-teal'
                     }`}>
                       <item.icon size={28} />
                     </div>
@@ -317,7 +315,7 @@ export function HomePage() {
           <div className="flex flex-wrap justify-center gap-3">
             {['Outlier AI', 'Handshake AI', 'DataAnnotation', 'Alignerr', 'RWS', 'Afterquery', 'Appen', 'Scale AI', 'UHRS', 'Micro1'].map((name, i) => (
               <FadeInUp key={name} delay={i * 0.05}>
-                <div className="px-4 py-2.5 bg-background border rounded-lg text-sm font-medium hover:border-emerald-300 hover:shadow-sm transition-all cursor-default">
+                <div className="px-4 py-2.5 bg-background border rounded-lg text-sm font-medium hover:border-brand-teal hover:shadow-sm transition-all cursor-default">
                   {name}
                 </div>
               </FadeInUp>
@@ -358,7 +356,7 @@ export function HomePage() {
                 features: ['Verified badge with proof', 'Contact info visible', 'Profile priority', 'Up to 5 portfolio items', 'All platforms & skills'],
                 cta: 'Get Verified',
                 highlight: true,
-                color: 'emerald',
+                color: 'brand',
                 badge: 'Most Popular',
               },
               {
@@ -369,14 +367,14 @@ export function HomePage() {
                 features: ['Premium gold badge', 'All Verified features', 'Featured in browse', 'Unlimited portfolio', 'Priority support', 'Analytics dashboard'],
                 cta: 'Go Premium',
                 highlight: false,
-                color: 'amber',
+                color: 'brand2',
               },
             ].map((plan, i) => (
               <FadeInUp key={plan.name} delay={i * 0.15}>
                 <motion.div whileHover={{ y: -4 }} transition={{ duration: 0.2 }}>
-                  <Card className={`h-full relative overflow-hidden ${plan.highlight ? 'border-emerald-500 border-2 shadow-lg shadow-emerald-100 dark:shadow-emerald-950/30' : ''}`}>
+                  <Card className={`h-full relative overflow-hidden ${plan.highlight ? 'border-brand-teal border-2 shadow-lg shadow-brand-teal/20 dark:shadow-brand-teal/10' : ''}`}>
                     {plan.badge && (
-                      <div className="absolute top-0 right-0 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                      <div className="absolute top-0 right-0 bg-brand-teal text-brand-navy text-xs font-bold px-3 py-1 rounded-bl-lg">
                         {plan.badge}
                       </div>
                     )}
@@ -391,7 +389,7 @@ export function HomePage() {
                       <ul className="space-y-2 mb-6">
                         {plan.features.map((f) => (
                           <li key={f} className="flex items-center gap-2 text-sm">
-                            <CheckCircle2 size={14} className={plan.color === 'emerald' ? 'text-emerald-500' : plan.color === 'amber' ? 'text-amber-500' : 'text-slate-400'} />
+                            <CheckCircle2 size={14} className={plan.color === 'brand' ? 'text-brand-teal' : plan.color === 'brand2' ? 'text-brand-navy' : 'text-slate-400'} />
                             {f}
                           </li>
                         ))}
@@ -413,7 +411,7 @@ export function HomePage() {
       </section>
 
       {/* ===== FOR TASKERS CTA ===== */}
-      <section className="py-20 bg-gradient-to-br from-slate-900 to-emerald-950 text-white">
+      <section className="py-20 bg-gradient-to-br from-brand-navy to-brand-navyLight text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <FadeInUp>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
@@ -430,12 +428,12 @@ export function HomePage() {
                 'Build your reputation with reviews and ratings',
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-2 text-slate-200">
-                  <CheckCircle2 size={16} className="text-emerald-400" />
+                  <CheckCircle2 size={16} className="text-brand-teal" />
                   <span className="text-sm">{item}</span>
                 </li>
               ))}
             </ul>
-            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white h-12 px-8" onClick={goToDashboard}>
+            <Button size="lg" className="bg-brand-teal hover:bg-brand-tealLight text-brand-navy h-12 px-8" onClick={goToDashboard}>
               Create Your Profile <ArrowRight size={18} className="ml-2" />
             </Button>
           </FadeInUp>
@@ -446,9 +444,9 @@ export function HomePage() {
       <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <FadeInUp>
-            <div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800 rounded-full px-4 py-1.5 mb-6">
-              <ShieldCheck size={16} className="text-emerald-500" />
-              <span className="text-emerald-700 dark:text-emerald-300 text-sm font-medium">Trust & Verification</span>
+            <div className="inline-flex items-center gap-2 bg-brand-teal/10 dark:bg-brand-teal/10 border border-brand-teal/30 dark:border-brand-teal/30 rounded-full px-4 py-1.5 mb-6">
+              <ShieldCheck size={16} className="text-brand-teal" />
+              <span className="text-brand-navy dark:text-brand-teal text-sm font-medium">Trust & Verification</span>
             </div>
             <h2 className="text-3xl font-bold mb-4">Verified by evidence, not just payment</h2>
             <p className="text-muted-foreground mb-10 max-w-2xl mx-auto">

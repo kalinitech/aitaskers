@@ -11,6 +11,12 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+        brand: {
+          navy: '#1E2A5E',
+          teal: '#00C2D1',
+          tealLight: '#2DD4BF',
+          navyLight: '#2B3B7A'
+        },
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -22,20 +28,20 @@ const config: Config = {
   				foreground: 'hsl(var(--popover-foreground))'
   			},
   			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
-  				foreground: 'hsl(var(--primary-foreground))'
+  				DEFAULT: '#1E2A5E',
+  				foreground: '#ffffff'
   			},
   			secondary: {
-  				DEFAULT: 'hsl(var(--secondary))',
-  				foreground: 'hsl(var(--secondary-foreground))'
+  				DEFAULT: '#00C2D1',
+  				foreground: '#1E2A5E'
   			},
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',
   				foreground: 'hsl(var(--muted-foreground))'
   			},
   			accent: {
-  				DEFAULT: 'hsl(var(--accent))',
-  				foreground: 'hsl(var(--accent-foreground))'
+  				DEFAULT: '#00C2D1',
+  				foreground: '#1E2A5E'
   			},
   			destructive: {
   				DEFAULT: 'hsl(var(--destructive))',
@@ -43,7 +49,7 @@ const config: Config = {
   			},
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
-  			ring: 'hsl(var(--ring))',
+  			ring: '#00C2D1',
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',
